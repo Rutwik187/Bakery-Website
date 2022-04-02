@@ -142,7 +142,7 @@ section {
 
 .hero {
   z-index: 1;
-  background-image: url("../images/heroImg.jpg");
+  background-image: url("./images/heroImg.jpg");
   height: 100vh;
   -webkit-background-size: cover;
   background-size: cover;
