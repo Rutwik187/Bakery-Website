@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kabirCakes</title>
+    <link rel="stylesheet" href="../common-styles.css" />
+    <link rel="stylesheet" href="Order-Now.css" />
+    <script src="../common-scripts.js" defer></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <img src="../images/KabirCakesLogo.png" alt="logo" />
+          </div>
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+          </div>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../Cakes/Cakes.html">Cakes</a></li>
+              <li><a href="../Mini-Bites/Mini-Bites.html">Mini Bites</a></li>
+              <li><a href="../About-Us/About-Us.html">About Us</a></li>
+              <li><a href="Order-Now.html">Order Now</a></li>
+              <li><a href="../Contact-Us/Contact-Us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-tilt>
+        <div class="title">Order Please</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your number" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your email" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Address</span>
+                <input type="text" placeholder="Enter your Address" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Product Name</span>
+                <input type="text" placeholder="Enter Product Name" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Product Discription</span>
+                <input
+                  type="text"
+                  placeholder="Describe the product in detail"
+                  required
+                />
+              </div>
+            </div>
+            <div class="function-details">
+              <input type="radio" name="function" id="dot-1" />
+              <input type="radio" name="function" id="dot-2" />
+              <input type="radio" name="function" id="dot-3" />
+              <input type="radio" name="function" id="dot-4" />
+              <span class="function-title">Purpose</span>
+              <div class="category">
+                <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="function">Birth Day</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="function">Anniversary</span>
+                </label>
+                <label for="dot-3">
+                  <span class="dot three"></span>
+                  <span class="function">Family Function</span>
+                </label>
+                <label for="dot-4">
+                  <span class="dot four"></span>
+                  <span class="function">Other</span>
+                </label>
+              </div>
+            </div>
+            <button class="Main-btn colors">Book a pice of Pie</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabir Cakes</title>
-  <link rel="stylesheet" href="./Home-Page/style.css">
-  <!-- corousal -->
-
-  <script src="./Home-Page/script.js" defer></script>
+  <link rel="stylesheet" href="./Home-Page/Home.css">
+  <link rel="stylesheet" href="common-styles.css">
+  <script src="./common-scripts.js" defer></script>
+  <script src="./Home-Page/Home.js" defer></script>
 
 </head>
 
@@ -29,11 +29,11 @@
         <div class="navbar-links">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="./Cakes/index.html">Cakes</a></li>
-            <li><a href="./Mini-Bites/index.html">Mini Bites</a></li>
-            <li><a href="./About-Us/index.html">About Us</a></li>
-            <li><a href="./Order-Now/index.html">Order Now</a></li>
-            <li><a href="./Contact-Us/index.html">Contact Us</a></li>
+            <li><a href="./Cakes/Cakes.html">Cakes</a></li>
+            <li><a href="./Mini-Bites/Mini-Bites.html">Mini Bites</a></li>
+            <li><a href="./About-Us/About-Us.html">About Us</a></li>
+            <li><a href="./Order-Now/Order-Now.html">Order Now</a></li>
+            <li><a href="./Contact-Us/Contact-Us.html">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -42,7 +42,7 @@
     <div class="welcome-text">
       <h1>Welcome </h1>
       <p class="tag-line">Baked goods like you have never seen before ...</p>
-      <button class="Main-btn colors">Book a pice of Pie</button>
+      <button onclick="location.href='./Order-Now/Order-Now.html'" class="Main-btn colors">Book a pice of Pie</button>
     </div>
   </section>
 
@@ -61,7 +61,7 @@
         We sell the best cakes in Ahmednagar in terms of quality and freshness. Also, you may call us the
         best bakery in Ahmednagar because the ultimate variety of products is nowhere to be found </p><br>
 
-      <button class="btn"> <span>Know more</span> </button>
+      <button class="btn" onclick="location.href='./About-Us/About-Us.html'"> <span>Know more</span> </button>
     </div>
 
     <div class="story-img">
@@ -111,7 +111,7 @@
           <hr />
           <p>Always and forever Delight!
             This three moist and smooth cake and vanilla cream is something not to be missed.</p>
-          <a href="#" class="product-btn btn"> <span>Buy Now</span> </a>
+          <a href="./Order-Now/Order-Now.html" class="product-btn btn"> <span>Buy Now</span> </a>
         </div>
       </div>
       <div class="product">
@@ -122,7 +122,7 @@
           <hr />
           <p>Vanillas are back in trend!
             Celebrate life and various special milestones of your loved ones life over this vanilla cake...</p>
-          <a href="#" class="product-btn btn"> <span>Buy Now</span> </a>
+          <a href="./Order-Now/Order-Now.html" class="product-btn btn"> <span>Buy Now</span> </a>
         </div>
       </div>
       <div class="product">
@@ -133,7 +133,7 @@
           <hr />
           <p>Rich and creamy chocolates made from good quality cocoa.
           </p>
-          <a href="#" class="product-btn btn"> <span>Buy Now</span> </a>
+          <a href="./Order-Now/Order-Now.html" class="product-btn btn"> <span>Buy Now</span> </a>
         </div>
       </div>
       <div class="product">
@@ -144,7 +144,7 @@
           <hr />
           <p>Makes the best impression on your sweet tooth loved ones on special
             occasions with a lip smacking Chocolate cake....</p>
-          <a href="#" class="product-btn btn"> <span>Buy Now</span> </a>
+          <a href="./Order-Now/Order-Now.html" class="product-btn btn"> <span>Buy Now</span> </a>
         </div>
       </div>
       <div class="product">
@@ -155,7 +155,7 @@
           <hr />
           <p>Light and moist cupcakes freshly baked
             topped with cream cheese frosting</p>
-          <a href="#" class="product-btn btn"> <span>Buy Now</span> </a>
+          <a href="./Order-Now/Order-Now.html" class="product-btn btn"> <span>Buy Now</span> </a>
         </div>
       </div>
       <div class="product">
@@ -166,7 +166,7 @@
           <hr />
           <p>Happiness is seeing a freshly baked pastry.A few more calories won’t hurt.Try our extremely delightful
             pastries and get mesmerized</p>
-          <a href="#" class="product-btn btn"> <span>Buy Now</span> </a>
+          <a href="./Order-Now/Order-Now.html" class="product-btn btn"> <span>Buy Now</span> </a>
         </div>
       </div>
     </div>
@@ -213,11 +213,12 @@
   
     <div class="pages-link">
       <h4>Pages</h4>
-      <p>Home</p>
-      <p>Products</p>
-      <p>About Us</p>
-      <p>Order Now</p>
-      <p>Contact Us</p>
+      <a href="index.html"><p>Home</p></a>
+      <a href="./Cakes/Cakes.html"><p>Cakes</p></a>
+      <a href="./Mini-Bites/Mini-Bites.html"><p>Mini-Bites</p></a>
+      <a href="./About-Us/About-Us.html"><p>About Us</p></a>
+      <a href="./Order-Now/Order-Now.html"><p>Order-Now</p></a>
+      <a href="./Contact-Us/Contact-Us.html"><p>Contact-Us</p></a>
     </div>
   </section>
   <button onclick="topFunction()" id="myBtn" title="Go to top">👆</button>
