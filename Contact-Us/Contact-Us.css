@@ -138,10 +138,17 @@ p{
     }
     .contact-container .contactInfo,
     .contactForm {
-        min-width: 80%;
+        min-width: 70%;
       margin: 2rem;
     }
      .icon img {
         width: 3rem;
     }
 }
+@media (max-width: 950px) {
+  .contact-container .contactInfo,
+    .contactForm {
+        min-width: 100%;
+      margin: 2rem;
+    }
+  }

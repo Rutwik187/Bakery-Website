@@ -302,11 +302,16 @@ padding: 4rem 8rem;
     align-items: center;
   }
   .contact-info-container {
-    padding: 2rem 4rem;
+    padding: 2rem ;
+    margin: 5rem 3rem;
+    border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .product-container{
+    padding: 2rem;
   }
 
   .review-container{
